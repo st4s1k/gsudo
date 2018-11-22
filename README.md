@@ -1,4 +1,4 @@
-# gsudo
+# gsudo (GUI sudo)
 gksu/gksudo alternative for debian based distros, nothing fancy
 # Installation
 To be able to access this command from anywhere, run the installer script only.
