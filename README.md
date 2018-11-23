@@ -7,7 +7,10 @@ To be able to access this command from anywhere, run the installer script only.
 #### One line command:
 Just copy-paste, press Enter and type the root password.
 ```
-git clone git@github.com:st4s1k/gsudo.git && cd gsudo && chmod +x gsudo_installer && bash ./gsudo_installer
+git clone git@github.com:st4s1k/gsudo.git &&
+cd gsudo &&
+chmod +x gsudo_installer &&
+bash ./gsudo_installer
 ```
 
 #### Separate commands:
