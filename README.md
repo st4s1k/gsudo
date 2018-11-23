@@ -2,11 +2,11 @@
 gksu/gksudo alternative for debian based distros, nothing fancy
 # Installation
 To be able to access this command from anywhere, run the installer script only.
-One line command:
+## One line command:
 ```
 git clone git@github.com:st4s1k/gsudo.git && cd gsudo && chmod +x gsudo_installer && bash ./gsudo_installer
 ```
-Multi-line command:
+## Multi-line command:
 ```
 git clone git@github.com:st4s1k/gsudo.git
 cd gsudo
