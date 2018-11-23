@@ -4,8 +4,8 @@
 
 echo "#!/bin/bash
 
-if [[ \$# -eq 1 ]]; then
-	pkexec env DISPLAY=\$DISPLAY XAUTHORITY=\$XAUTHORITY \$1
+if [[ \$# -ge 1 ]]; then
+	pkexec env DISPLAY=\$DISPLAY XAUTHORITY=\$XAUTHORITY \$@
 else
 	echo "gsudo: error: bad number of arguments."
 fi" >> /usr/local/bin/gsudo
